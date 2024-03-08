@@ -10,10 +10,10 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#AA14F0",
-        secondary: "#810CA8",
-        tertiary: "#79018C",
-        accent: "#B030B0",
+        primary: "#EF4040",
+        secondary: "#3C0753",
+        tertiary: "#FC4F00",
+        accent: "#5E1675",
       },
       fontFamily: {
         sans: ["Roboto", "Montserrat", "sans-serif"],
