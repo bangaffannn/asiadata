@@ -19,6 +19,9 @@ export default {
         sans: ["Roboto", "Montserrat", "sans-serif"],
         serif: ["Suranna"],
       },
+      backgroundImage: {
+        site: "url('./assets/asia-bg6.jpg')",
+      },
     },
   },
   plugins: [],

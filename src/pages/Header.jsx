@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -26,7 +26,7 @@ function Header() {
           {isMenuOpen ? <AiOutlineClose /> : <RiMenu3Fill />}
         </button>
         <div className="flex justify-between items-center w-full">
-          <Link to="/">
+          <Link to="home">
             <img
               className="hidden md:block h-12 w-auto"
               src={logo}
@@ -41,33 +41,33 @@ function Header() {
                   : "hidden md:block md:flex md:justify-center md:items-center space-x-4"
               }`}
             >
-              <li className="px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
-                <Link to="/" onClick={handleMenuClick}>
+              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+                <Link to="home" onClick={handleMenuClick}>
                   Home
                 </Link>
               </li>
-              <li className="px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
-                <Link to="/portfolio" onClick={handleMenuClick}>
-                  Portfolio
-                </Link>
-              </li>
-              <li className="px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
-                <Link to="/about" onClick={handleMenuClick}>
+              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+                <Link to="about" onClick={handleMenuClick}>
                   About
                 </Link>
               </li>
-              <li className="px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
-                <Link to="/services" onClick={handleMenuClick}>
+              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+                <Link to="portfolio" onClick={handleMenuClick}>
+                  Portfolio
+                </Link>
+              </li>
+              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+                <Link to="services" onClick={handleMenuClick}>
                   Services
                 </Link>
               </li>
-              <li className="px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
-                <Link to="/work" onClick={handleMenuClick}>
+              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+                <Link to="work" onClick={handleMenuClick}>
                   Work
                 </Link>
               </li>
-              <li className="px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
-                <Link to="/faq" onClick={handleMenuClick}>
+              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+                <Link to="faq" onClick={handleMenuClick}>
                   FAQ
                 </Link>
               </li>
