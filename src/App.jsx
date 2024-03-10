@@ -1,5 +1,7 @@
 import React from "react";
 
+import Iseng from './pages/Iseng.jsx';
+
 import Header from "./pages/Header.jsx";
 import Home from "./pages/Home.jsx";
 import Portfolio from "./pages/Portfolio";
@@ -14,6 +16,7 @@ const App = () => {
     <main className="bg-black">
       <Header />
       <Home />
+      {/* <Iseng /> */}
       <About />
       <Portfolio />
       <Services />
