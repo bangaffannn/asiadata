@@ -22,22 +22,22 @@ const services = [
     description: "Lorem ipsum",
     list: ["keyword research", "on-page SEO", "off-page SEO"],
   },
-  {
-    title: "SEO Optimization",
-    description: "Lorem ipsum",
-    list: ["keyword research", "on-page SEO", "off-page SEO"],
-  },
+  // {
+  //   title: "SEO Optimization",
+  //   description: "Lorem ipsum",
+  //   list: ["keyword research", "on-page SEO", "off-page SEO"],
+  // },
 ];
 
 const ServicesCard = ({ title, description, list }) => {
   return (
-    <div className="p-4 w-60 h-80 rounded-lg bg-primary hover:scale-110 transition-all duration-300 ease-in-out">
+    <div className="p-4 w-60 h-80 rounded-lg bg-black border border-2 border- hover:scale-110 transition-all duration-300 ease-in-out">
       <div className="ml-2">
         <div className="text-white font-semibold">{title}</div>
-        <p className="text-gray-900">{description}</p>
-        <ul className="text-gray-900">
+        <p className="">{description}</p>
+        <ul className="">
           {list.map((item, index) => (
-            <li className="flex justify-start items-center" key={index}>
+            <li className="flex justify-start items-center gap-x-2" key={index}>
               <HiCheckCircle />
               {item}
             </li>
@@ -52,7 +52,7 @@ const ServicesArray = ({ services }) => {
   return (
     <div className="flex justify-center items-center gap-y-2 md:gap-y-0 gap-x-4 md:gap-x-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {services.map((item, index) => (
-        <div key={index} className="mt-2 lg:mt-2 xl:mt-6">
+        <div key={index} className="mt-2 xl:mt-6">
           <ServicesCard
             title={item.title}
             description={item.description}

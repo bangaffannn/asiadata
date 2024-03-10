@@ -21,6 +21,7 @@ export default {
       },
       backgroundImage: {
         site: "url('./assets/asia-bg6.jpg')",
+        // cover: "url('./assets/bg-black6.jpg')",
       },
     },
   },

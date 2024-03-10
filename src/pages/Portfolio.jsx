@@ -10,7 +10,7 @@ import img6 from "../assets/logo/drgirmalogo.png";
 const Portfolio = () => {
   return (
     <div id="portfolio" className="section mt-5">
-      <div className="mb-20 container mx-auto px-4">
+      <div className="container mx-auto px-4">
         <div className="mb-20">
           <h1 className="text-3xl font-bold mb-10 text-center text-white">
             Our Project Portfolio

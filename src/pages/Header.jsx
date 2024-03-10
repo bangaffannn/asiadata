@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <header className="p-10 text-white bg-black">
+    <header className="p-10 text-white">
       <nav className="container mx-auto">
         <button
           className="md:hidden z-40 text-2xl w-full flex justify-end md:justify-center items-center"

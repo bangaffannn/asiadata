@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Work from "./pages/Work";
 import FAQ from "./pages/FAQ";
+import SecondBanner from './pages/SecondBanner.jsx'
 import Footer from "./pages/Footer";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Services />
       {/* <Work /> */}
       <FAQ />
+      {/* <SecondBanner /> */}
       <Footer />
     </main>
   );

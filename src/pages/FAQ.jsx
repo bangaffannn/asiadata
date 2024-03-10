@@ -57,11 +57,11 @@ const FAQ = () => {
       </h1>
       <div className="grid gap-6">
         {faqs.map((faq, index) => (
-          <div key={index} className="border border-gray-200 p-4 rounded-lg">
-            <div className="flex justify-between items-center mb-2">
-              <h2 className="text-lg font-semibold">{faq.question}</h2>
+          <div key={index} className="cursor-pointer border border-white hover:border-tertiary transition duration-300 ease-in-out p-4 rounded-lg" onClick={() => handleToggle(index)}>
+            <div className="flex justify-between items-center mb-2 cursor-pointer" onClick={() => handleToggle(index)}>
+              <h2 className="text-lg font-semibold cursor-pointer" onClick={() => handleToggle(index)}>{faq.question} </h2>
               <button
-                className={`hover:text-tertiary transition-all duration-300 ease-in-out`}
+                className={`hover:text-tertiary transition-all duration-300 ease-in-out cursor-pointer`}
                 onClick={() => handleToggle(index)}
               >
                 {openIndex === index ? (
