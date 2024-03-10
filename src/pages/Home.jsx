@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../assets/orange-screen.png";
+import Img1 from "../assets/purple-cover.png";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
           <div className="flex grid grid-cols-2 justify-center items-start gap-y-4 mb-8">
             <div className="flex flex-col h-full justify-center gap-y-5">
               <h1 className="text-white font-bold text-5xl">
-                <span className="text-tertiary">UNLIMITED NUMBER</span>{" "}OF CUSTOMERS IN FRONT OF <span className="text-tertiary">YOUR BUSINESS.</span>
+                <span className="text-accent">UNLIMITED NUMBER</span>{" "}OF CUSTOMERS IN FRONT OF <span className="text-accent">YOUR BUSINESS.</span>
               </h1>
               <p className="text-white">
                 Our services help your cold, warm and hot customers <span className="font-bold">discover
@@ -17,7 +17,7 @@ const Home = () => {
                 <span className="font-bold">bringing targeted traffic</span> to your business profile.
               </p>
               <a
-                className="px-4 py-3 max-w-xs flex justify-center items-center rounded-md border border-white text-white hover:border-tertiary hover:text-tertiary hover:scale-110 transition-all duration-150 ease-in-out"
+                className="px-4 py-3 max-w-xs flex justify-center items-center rounded-md border border-white text-white hover:border-accent hover:text-accent hover:scale-110 transition-all duration-150 ease-in-out"
                 href=""
               >
                 Book a call with us today!
