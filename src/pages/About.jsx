@@ -4,7 +4,7 @@ import Img1 from '../assets/purple-person.png';
 
 const About = () => {
   return (
-    <section id='about' className="mt-10 mb-20">
+    <section id='about' className="mt-5 mb-20">
       <div className="container mx-auto">
         <div>
           <p className="text-white text-lg mb-2 text-center">

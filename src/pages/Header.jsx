@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 
-import logo from "../assets/logoasia.png";
+import logo from "../assets/logoupdate3.png";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,9 +26,9 @@ function Header() {
           {isMenuOpen ? <AiOutlineClose /> : <RiMenu3Fill />}
         </button>
         <div className="flex justify-between items-center w-full">
-          <Link to="home">
+          <Link to="about">
             <img
-              className="hidden md:block h-12 w-auto"
+              className="hidden md:block h-12 w-auto cursor-pointer"
               src={logo}
               alt="logo asiadata"
             />

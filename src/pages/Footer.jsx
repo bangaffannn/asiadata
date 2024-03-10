@@ -17,26 +17,26 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* About Us */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2 text-green-900">
+            <h3 className="text-lg font-semibold mb-2">
               About Us
             </h3>
-            <p className="text-green-800">
+            <p>
               Best dental treatment with best service, only for you!
             </p>
           </div>
 
           {/* Contact Us */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2 text-green-900">
+            <h3 className="text-lg font-semibold mb-2">
               Contact Us
             </h3>
-            <p className="text-green-800">Email: contoh@contoh.com</p>
-            <p className="text-green-800">Phone: +62 819 5895 4949</p>
+            <p>Email: contoh@contoh.com</p>
+            <p>Phone: +62 819 5895 4949</p>
           </div>
 
           {/* Links */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2 text-green-900">Links</h3>
+            <h3 className="text-lg font-semibold mb-2">Links</h3>
             <ul>
               <FooterLink to="banner" label="Home" />
               <FooterLink to="banner" label="Tentang kami" />
@@ -47,10 +47,10 @@ const Footer = () => {
 
           {/* Subscribe Us */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2 text-green-900">
+            <h3 className="text-lg font-semibold mb-2">
               Subscribe Us
             </h3>
-            <ul className="flex space-x-4 text-green-800">
+            <ul className="flex space-x-4">
               <FooterSocialIcon icon={<FaInstagram />} />
               <FooterSocialIcon icon={<FaFacebook />} />
               <FooterSocialIcon icon={<FaXing />} />
@@ -70,7 +70,7 @@ const FooterLink = ({ to, label }) => (
     activeClass="active"
     smooth={true}
     spy={true}
-    className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
+    className="cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
   >
     <Link to={to}>{label}</Link>
   </li>

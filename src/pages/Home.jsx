@@ -7,7 +7,7 @@ const Home = () => {
       <div className="container mx-auto flex justify-center items-center">
         <div>
           <div className="flex grid grid-cols-2 justify-center items-start gap-y-4 mb-8">
-            <div className="flex flex-col h-full justify-center gap-y-5">
+            <div className="flex flex-col h-full justify-center gap-y-7">
               <h1 className="text-white font-bold text-5xl">
                 <span className="text-accent">UNLIMITED NUMBER</span>{" "}OF CUSTOMERS IN FRONT OF <span className="text-accent">YOUR BUSINESS.</span>
               </h1>
@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             <div className="relative flex justify-center items-center">
               {/* BOX BACKGROUND */}
-              <div className="absolute top-0 w-80 h-80 bg-opacity-0 border shadow-xl shadow-primary opacity-70 rounded-lg"></div>
+              <div className="absolute top-0 w-80 h-80 bg-secondary shadow-xl shadow-primary rounded-full"></div>
               <img className="w-120 h-auto z-10" src={Img1} alt="image" />
             </div>
           </div>
