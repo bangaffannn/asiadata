@@ -1,6 +1,7 @@
 import React from "react";
 
 import Iseng from './pages/Iseng.jsx';
+import WhatsappButton from "./pages/WhatsappButton.jsx";
 
 import Header from "./pages/Header.jsx";
 import Home from "./pages/Home.jsx";
@@ -28,6 +29,7 @@ const App = () => {
       <FAQ />
       {/* <SecondBanner /> */}
       <Footer />
+      <WhatsappButton />
     </main>
   );
 };
