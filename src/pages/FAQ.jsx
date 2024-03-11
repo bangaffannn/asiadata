@@ -5,28 +5,38 @@ import { HiOutlineArrowCircleUp } from "react-icons/hi";
 const FAQ = () => {
   const faqs = [
     {
-      question: "What is your return policy?",
+      question: "Apakah saya membutuhkan website untuk bisnis saya?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero ac mauris lacinia, ut luctus arcu fringilla.",
+        "Ya, memiliki situs web adalah kunci penting dalam membangun kehadiran online bagi bisnis Anda. Ini membantu meningkatkan visibilitas, kredibilitas, dan aksesibilitas bisnis Anda.",
     },
     {
-      question: "How can I contact customer support?",
+      question: "Berapa lama proses pengembangan website atau mobile apps?",
       answer:
-        "You can contact our customer support team via email at support@example.com or by phone at +1234567890.",
+        "Lama waktu pengembangan dapat bervariasi tergantung pada kompleksitas proyek. Proyek sederhana dapat selesai dalam beberapa minggu, sementara proyek yang lebih kompleks dapat memakan waktu beberapa bulan.",
     },
     {
-      question: "Do you offer free shipping?",
+      question: "Berapa biaya pembuatan aplikasi mobile?",
       answer:
-        "Yes, we offer free shipping on all orders over $50 within the continental United States.",
+        "Biaya pembuatan aplikasi mobile tergantung pada berbagai faktor termasuk kompleksitas aplikasi, fitur yang diminta, dan biaya pengembang. Tapi yang pasti biaya layanan pada ASIADATA sangat terjangkau karena kami tidak melibatkan pihak ketiga (vendor) dalam pelaksanaan proyek",
     },
     {
-      question: "What payment methods do you accept?",
-      answer: "We accept Visa, MasterCard, American Express, and PayPal.",
+      question: "Apa Manfaat Pembuatan Podcast dan Konten Video untuk Bisnis?",
+      answer: "Podcast dan konten video adalah cara yang efektif untuk terhubung dengan audiens, meningkatkan kesadaran merek, dan memperkuat hubungan dengan pelanggan.",
     },
     {
-      question: "How do I track my order?",
+      question: "Apa Saja Strategi Digital Marketing yang Efektif?",
       answer:
-        "Once your order has been shipped, you will receive a tracking number via email. You can use this tracking number to track your order on our website.",
+        "Strategi digital marketing yang efektif termasuk SEO, PPC (Google Ads), pemasaran konten, media sosial, dan email marketing.",
+    },
+    {
+      question: "Bagaimana Cara Mengukur Keberhasilan Kampanye Digital Marketing?",
+      answer:
+        "Keberhasilan kampanye digital dapat diukur melalui metrik seperti tingkat konversi, jumlah lalu lintas, tingkat interaksi, dan ROI (Return on Investment).",
+    },
+    {
+      question: "Berapa estimasi biaya layanan di ASIADATA TECHNOLOGY?",
+      answer:
+        "Dalam perencanaan dan pelaksanaan proyek, kami menentukan rencana anggaran layanan TERGANTUNG pada budget masing-masing klien. Hal ini yang membuat layanan kami sangat terjangkau bagi klien berbagai macam bidang dan sektor",
     },
   ];
 
@@ -51,7 +61,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 mt-10">
+    <div id="faq" className="container mx-auto px-4 py-8 mt-10">
       <h1 className="text-3xl font-semibold text-center mb-8">
         Frequently Asked Questions
       </h1>

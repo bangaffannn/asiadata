@@ -8,7 +8,7 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Blog from './pages/Blog.jsx'
 import Services from "./pages/Services";
-import Work from "./pages/Work";
+import Promotion from "./pages/Promotion.jsx";
 import FAQ from "./pages/FAQ";
 import SecondBanner from './pages/SecondBanner.jsx'
 import Footer from "./pages/Footer";
@@ -20,10 +20,11 @@ const App = () => {
       <Home />
       {/* <Iseng /> */}
       <About />
-      <Blog />
       <Portfolio />
+      <Blog />
       <Services />
       {/* <Work /> */}
+      {/* <Promotion /> */}
       <FAQ />
       {/* <SecondBanner /> */}
       <Footer />

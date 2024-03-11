@@ -20,7 +20,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2">About Us</h3>
             <p>Help your customers discover you!</p>
           </div>
-
           {/* Contact Us */}
           <div className="footer-section">
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
@@ -34,7 +33,8 @@ const Footer = () => {
             <ul>
               <FooterLink to="home" label="Home" />
               <FooterLink to="about" label="About" />
-              <FooterLink to="portfolio" label="portfolio" />
+              <FooterLink to="portfolio" label="Portfolio" />
+              <FooterLink to="blog" label="Blog" />
               <FooterLink to="services" label="Services" />
               <FooterLink to="faq" label="FAQ" />
             </ul>

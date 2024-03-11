@@ -5,7 +5,7 @@ import Img3 from "../assets/blog3.jpg";
 
 const BlogCard = ({ title, image, description }) => {
   return (
-    <div className="mx-auto bg-background rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div className="mx-auto bg-background rounded-xl shadow-md overflow-hidden md:max-w-2xl transition duration-300 ease-in-out">
       <div className="">
         <div className="">
           <img
@@ -27,7 +27,6 @@ const BlogCard = ({ title, image, description }) => {
           <a href="/" className="text-secondary hover:text-white">Baca selanjutnya...</a>
         </div>
       </div>
-      
     </div>
   );
 };
@@ -59,7 +58,10 @@ const Blog = () => {
   ];
 
   return (
-    <section className="container mx-auto mb-20">
+    <section id="blog" className="container mx-auto mb-10">
+      <div>
+        <h1 className="text-3xl font-semibold text-center my-8">Blogs</h1>
+      </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         {blogs.map((blog) => (
           <BlogCard
