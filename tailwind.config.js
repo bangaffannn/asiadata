@@ -14,6 +14,7 @@ export default {
         secondary: "#3C0753",
         tertiary: "#9A0680",
         accent: "#F638DC",
+        background: '#F72798'
       },
       fontFamily: {
         sans: ["Roboto", "Montserrat", "sans-serif"],

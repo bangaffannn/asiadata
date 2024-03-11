@@ -61,11 +61,11 @@ function Header() {
                   Services
                 </Link>
               </li>
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              {/* <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
                 <Link to="work" onClick={handleMenuClick}>
                   Work
                 </Link>
-              </li>
+              </li> */}
               <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
                 <Link to="faq" onClick={handleMenuClick}>
                   FAQ

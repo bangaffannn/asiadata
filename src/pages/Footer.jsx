@@ -17,39 +17,32 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
           {/* About Us */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2">
-              About Us
-            </h3>
-            <p>
-              Best dental treatment with best service, only for you!
-            </p>
+            <h3 className="text-lg font-semibold mb-2">About Us</h3>
+            <p>Help your customers discover you!</p>
           </div>
 
           {/* Contact Us */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2">
-              Contact Us
-            </h3>
-            <p>Email: contoh@contoh.com</p>
-            <p>Phone: +62 819 5895 4949</p>
+            <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
+            <p>Email: bangaffannn@gmail.com</p>
+            <p>Phone: +62 896 0872 5725</p>
           </div>
 
           {/* Links */}
           <div className="footer-section">
             <h3 className="text-lg font-semibold mb-2">Links</h3>
             <ul>
-              <FooterLink to="banner" label="Home" />
-              <FooterLink to="banner" label="Tentang kami" />
-              <FooterLink to="layanan" label="Layanan" />
+              <FooterLink to="home" label="Home" />
+              <FooterLink to="about" label="About" />
+              <FooterLink to="portfolio" label="portfolio" />
+              <FooterLink to="services" label="Services" />
               <FooterLink to="faq" label="FAQ" />
             </ul>
           </div>
 
           {/* Subscribe Us */}
           <div className="footer-section">
-            <h3 className="text-lg font-semibold mb-2">
-              Subscribe Us
-            </h3>
+            <h3 className="text-lg font-semibold mb-2">Subscribe Us</h3>
             <ul className="flex space-x-4">
               <FooterSocialIcon icon={<FaInstagram />} />
               <FooterSocialIcon icon={<FaFacebook />} />
@@ -70,7 +63,7 @@ const FooterLink = ({ to, label }) => (
     activeClass="active"
     smooth={true}
     spy={true}
-    className="cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
+    className="cursor-pointer hover:text-accent transition duration-300 ease-in-out"
   >
     <Link to={to}>{label}</Link>
   </li>
@@ -81,7 +74,7 @@ const FooterSocialIcon = ({ icon }) => (
   <li>
     <a
       href="#"
-      className="hover:text-secondary transition-all duration-300 ease-in-out"
+      className="hover:text-accent transition-all duration-300 ease-in-out"
     >
       {icon}
     </a>

@@ -13,20 +13,30 @@ const services = [
     list: ["x", "y", "z"],
   },
   {
-    title: "SEO Optimization",
+    title: "SEO Services",
     description: "Lorem ipsum",
     list: ["keyword research", "on-page SEO", "off-page SEO"],
   },
   {
-    title: "SEO Optimization",
+    title: "Digital Marketing",
     description: "Lorem ipsum",
     list: ["keyword research", "on-page SEO", "off-page SEO"],
   },
-  // {
-  //   title: "SEO Optimization",
-  //   description: "Lorem ipsum",
-  //   list: ["keyword research", "on-page SEO", "off-page SEO"],
-  // },
+  {
+    title: "UI/UX Design",
+    description: "Lorem ipsum",
+    list: ["keyword research", "on-page SEO", "off-page SEO"],
+  },
+  {
+    title: "Commercial Ads Video",
+    description: "Lorem ipsum",
+    list: ["keyword research", "on-page SEO", "off-page SEO"],
+  },
+  {
+    title: "Podcast and Content Video",
+    description: "Lorem ipsum",
+    list: ["keyword research", "on-page SEO", "off-page SEO"],
+  },
 ];
 
 const ServicesCard = ({ title, description, list }) => {
@@ -34,11 +44,11 @@ const ServicesCard = ({ title, description, list }) => {
     <div className="p-4 w-60 h-80 rounded-lg bg-black border border-2 border- hover:scale-110 transition-all duration-300 ease-in-out">
       <div className="ml-2">
         <div className="text-white font-semibold">{title}</div>
-        <p className="">{description}</p>
+        <p className="mb-2">{description}</p>
         <ul className="">
           {list.map((item, index) => (
             <li className="flex justify-start items-center gap-x-2" key={index}>
-              <HiCheckCircle />
+              <HiCheckCircle className="text-accent"/>
               {item}
             </li>
           ))}

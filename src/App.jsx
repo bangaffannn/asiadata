@@ -6,6 +6,7 @@ import Header from "./pages/Header.jsx";
 import Home from "./pages/Home.jsx";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
+import Blog from './pages/Blog.jsx'
 import Services from "./pages/Services";
 import Work from "./pages/Work";
 import FAQ from "./pages/FAQ";
@@ -19,6 +20,7 @@ const App = () => {
       <Home />
       {/* <Iseng /> */}
       <About />
+      <Blog />
       <Portfolio />
       <Services />
       {/* <Work /> */}
