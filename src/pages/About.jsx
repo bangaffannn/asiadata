@@ -18,7 +18,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <img className="mx-auto md:mx-0" src={Img1} alt="Illustration" />
           <div className="text-white">
-            <h2 className="text-lg font-bold mb-2 text-accent">
+            <h2 className="text-lg font-bold mb-2 text-accent text-justify">
               Sebanyak 97.3% pengguna internet di Indonesia menggunakan GOOGLE
               SEARCH
             </h2>
@@ -30,8 +30,8 @@ const About = () => {
               bisnis Anda dapat meningkatkan visibilitasnya di mesin pencari
               paling populer ini.
             </p>
-            <h2 className="text-lg font-bold mb-2 text-accent">
-              Jadi bisnis nomor satu di tingkat lokal dengan optimalisasi LOKAL
+            <h2 className="text-lg font-bold mb-2 text-accent text-justify">
+              Ayo jadi bisnis nomor satu dengan optimalisasi LOKAL
               SEO yang dapat meningkatkan potensi pasar kamu lebih dari 400%
             </h2>
             <p className="mb-6 text-justify">

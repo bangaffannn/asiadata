@@ -37,40 +37,40 @@ function Header() {
             <ul
               className={`${
                 isMenuOpen
-                  ? "fixed md:hidden mx-4 my-6 top-15 gap-y-2 left-0 right-0 bg-opacity-80 flex flex-col"
+                  ? "fixed md:hidden mx-4 my-6 top-15 gap-y-2 left-0 right-0 bg-black bg-opacity-90 flex flex-col"
                   : "hidden md:block md:flex md:justify-center md:items-center space-x-4"
               }`}
             >
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="home" onClick={handleMenuClick}>
                 <Link to="home" onClick={handleMenuClick}>
                   Home
                 </Link>
-              </li>
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              </Link>
+              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="about" onClick={handleMenuClick}>
                 <Link to="about" onClick={handleMenuClick}>
                   About
                 </Link>
-              </li>
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              </Link>
+              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="portfolio" onClick={handleMenuClick}>
                 <Link to="portfolio" onClick={handleMenuClick}>
                   Portfolio
                 </Link>
-              </li>
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              </Link>
+              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="blog" onClick={handleMenuClick}>
                 <Link to="blog" onClick={handleMenuClick}>
                   Blog
                 </Link>
-              </li>
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              </Link>
+              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="services" onClick={handleMenuClick}>
                 <Link to="services" onClick={handleMenuClick}>
                   Services
                 </Link>
-              </li>
-              <li className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out">
+              </Link>
+              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="faq" onClick={handleMenuClick}>
                 <Link to="faq" onClick={handleMenuClick}>
                   FAQ
                 </Link>
-              </li>
+              </Link>
               {/* <li className="px-4 py-1 rounded-full text-white hover:bg-primary transition-all duration-300 ease-in-out">
             <Link to="/contact">Contact</Link>
           </li> */}
