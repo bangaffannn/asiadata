@@ -50,15 +50,15 @@ const FAQ = () => {
     }
   };
 
-  const [isSpied, setIsSpied] = useState(false);
-  const handleSpyButton = () => {
-    setIsSpied(!isSpied);
-  };
+  // const [isSpied, setIsSpied] = useState(false);
+  // const handleSpyButton = () => {
+  //   setIsSpied(!isSpied);
+  // };
 
-  const handleButton = (index) => {
-    handleToggle(index);
-    handleSpyButton();
-  };
+  // const handleButton = (index) => {
+  //   handleToggle(index);
+  //   handleSpyButton();
+  // };
 
   return (
     <div id="faq" className="container mx-auto px-4 py-8 mt-10">
