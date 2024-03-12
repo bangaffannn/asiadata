@@ -17,7 +17,7 @@ const FAQ = () => {
     {
       question: "Berapa biaya pembuatan aplikasi mobile?",
       answer:
-        "Biaya pembuatan aplikasi mobile tergantung pada berbagai faktor termasuk kompleksitas aplikasi, fitur yang diminta, dan biaya pengembang. Tapi yang pasti biaya layanan pada ASIADATA sangat terjangkau karena kami tidak melibatkan pihak ketiga (vendor) dalam pelaksanaan proyek",
+        "Biaya pembuatan aplikasi mobile tergantung pada berbagai faktor termasuk kompleksitas aplikasi, fitur yang diminta, dan biaya pengembang. Tapi yang pasti biaya layanan pada WISE TECHNOLOGY sangat terjangkau karena kami tidak melibatkan pihak ketiga (vendor) dalam pelaksanaan proyek",
     },
     {
       question: "Apa Manfaat Pembuatan Podcast dan Konten Video untuk Bisnis?",
@@ -34,7 +34,7 @@ const FAQ = () => {
         "Keberhasilan kampanye digital dapat diukur melalui metrik seperti tingkat konversi, jumlah lalu lintas, tingkat interaksi, dan ROI (Return on Investment).",
     },
     {
-      question: "Berapa estimasi biaya layanan di ASIADATA TECHNOLOGY?",
+      question: "Berapa estimasi biaya layanan di WISE TECHNOLOGY?",
       answer:
         "Dalam perencanaan dan pelaksanaan proyek, kami menentukan rencana anggaran layanan TERGANTUNG pada budget masing-masing klien. Hal ini yang membuat layanan kami sangat terjangkau bagi klien berbagai macam bidang dan sektor",
     },
