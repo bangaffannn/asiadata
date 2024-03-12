@@ -38,7 +38,7 @@ const Blog = () => {
       title: "Mengoptimalkan SEO: Langkah-langkah Penting untuk Situs Web Anda",
       image: Img1,
       description:
-        "Dalam dunia digital saat ini, optimasi mesin pencari (SEO) menjadi kunci kesuksesan untuk meningkatkan visibilitas situs web Anda di halaman hasil pencarian.",
+        "Optimasi mesin pencari (SEO) menjadi kunci kesuksesan untuk meningkatkan visibilitas situs web Anda di halaman hasil pencarian...",
     },
     {
       id: 2,
