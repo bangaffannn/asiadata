@@ -3,7 +3,7 @@ import Img1 from "../assets/purple-cover.png";
 
 const Home = () => {
   return (
-    <section id="home" className="bg-site bg-cover pt-20 mb-10">
+    <section id="home" className="bg-black pt-20 mb-10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left mx-4 sm:mx-0">
