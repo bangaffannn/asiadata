@@ -25,7 +25,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
             <p>WISE Technology</p>
             <p>PT HASO KARYA NUSANTARA</p>
-            <p>Email: bangaffannn@gmail.com</p>
+            <p>Email: wiseworktechnology@gmail.com</p>
             <p>Phone: +62 896 0872 5725</p>
           </div>
 

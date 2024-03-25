@@ -20,7 +20,7 @@ const Home = () => {
             </p>
             <a
               className="block mx-auto mt-6 px-4 py-3 max-w-full bg-white text-center text-primary font-bold rounded-md hover:bg-accent hover:text-white transition-all duration-300 ease-in-out"
-              href="https://wa.me/+6289608725725"
+              href="https://wa.me/6289608725725?text=Halo,%20saya%20tertarik%20untuk%20menggunakan%20layanan%20Wise%20Technology!"
             >
               Book a call with us today!
             </a>
