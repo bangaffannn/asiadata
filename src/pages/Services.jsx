@@ -32,7 +32,7 @@ const services = [
     // link: "",
   },
   {
-    title: "SEO Services",
+    title: "SEO FOR UMKM",
     // description: "Lorem ipsum",
     list: [
       "Keyword research",

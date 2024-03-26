@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="text-center">
           <p className="text-white text-lg mb-2">
-            Professional business services
+          SIGNIFICANTLY INCREASE YOUR BUSINESS SALES WITH <span className="text-3xl font-bold text-accent">#SEO<span className="text-white">FOR</span>UMKM</span> SERVICES
           </p>
           <h1 className="text-4xl text-white mb-10">
             Make every customer{" "}

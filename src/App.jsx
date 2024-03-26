@@ -10,6 +10,7 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Blog from "./pages/Blog.jsx";
 import Services from "./pages/Services";
+import ServicesTab from "./pages/ServicesTab.jsx";
 import Promotion from "./pages/Promotion.jsx";
 import FAQ from "./pages/FAQ";
 import SecondBanner from "./pages/SecondBanner.jsx";
@@ -23,13 +24,14 @@ const App = () => {
       {/* <Iseng /> */}
       <About />
       <Portfolio />
+      <ServicesTab />
       <Blog />
       {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={Blog1}/>
         </Routes>
         </BrowserRouter> */}
-      <Services />
+      {/* <Services /> */}
       {/* <Work /> */}
       {/* <Promotion /> */}
       <FAQ />

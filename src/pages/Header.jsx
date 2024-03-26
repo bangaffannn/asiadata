@@ -41,32 +41,57 @@ function Header() {
                   : "hidden md:block md:flex md:justify-center md:items-center space-x-4"
               }`}
             >
-              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="home" onClick={handleMenuClick}>
+              <Link
+                className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out"
+                to="home"
+                onClick={handleMenuClick}
+              >
                 <Link to="home" onClick={handleMenuClick}>
                   Home
                 </Link>
               </Link>
-              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="about" onClick={handleMenuClick}>
+              <Link
+                className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out"
+                to="about"
+                onClick={handleMenuClick}
+              >
                 <Link to="about" onClick={handleMenuClick}>
                   About
                 </Link>
               </Link>
-              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="portfolio" onClick={handleMenuClick}>
+              <Link
+                className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out"
+                to="portfolio"
+                onClick={handleMenuClick}
+              >
                 <Link to="portfolio" onClick={handleMenuClick}>
                   Portfolio
                 </Link>
               </Link>
-              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="blog" onClick={handleMenuClick}>
-                <Link to="blog" onClick={handleMenuClick}>
-                  Blog
-                </Link>
-              </Link>
-              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="services" onClick={handleMenuClick}>
+              <Link
+                className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out"
+                to="services"
+                onClick={handleMenuClick}
+              >
                 <Link to="services" onClick={handleMenuClick}>
                   Services
                 </Link>
               </Link>
-              <Link className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out" to="faq" onClick={handleMenuClick}>
+              <Link
+                className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out"
+                to="blog"
+                onClick={handleMenuClick}
+              >
+                <Link to="blog" onClick={handleMenuClick}>
+                  Blog
+                </Link>
+              </Link>
+
+              <Link
+                className="cursor-pointer px-4 py-1 rounded-full text-white hover:bg-tertiary transition-all duration-300 ease-in-out"
+                to="faq"
+                onClick={handleMenuClick}
+              >
                 <Link to="faq" onClick={handleMenuClick}>
                   FAQ
                 </Link>
