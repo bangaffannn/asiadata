@@ -1,4 +1,12 @@
 import React, { useState } from "react";
+import {
+  FaDesktop,
+  FaMobileAlt,
+  FaSearch,
+  FaChartBar,
+  FaPaintBrush,
+  FaPodcast,
+} from "react-icons/fa";
 
 import Img1 from "../assets/Tab/content.png";
 import Img2 from "../assets/Tab/mobileapps.png";
@@ -37,14 +45,23 @@ export default function ServicesTab() {
     "Pembuatan Podcast dan Video Content",
   ];
 
+  const icons = [
+    <FaDesktop />,
+    <FaMobileAlt />,
+    <FaSearch />,
+    <FaChartBar />,
+    <FaPaintBrush />,
+    <FaPodcast />,
+  ];
+
   return (
     <div id="services" className="mt-20 mb-20">
       <div className="container mx-auto">
         <h1 className="text-3xl font-semibold text-center my-8">
           Our Services
         </h1>
-        <div>
-          <ul className="px-4 py-4 border rounded-lg sm:rounded-full flex flex-col sm:flex-row justify-around items-center">
+        <div className="mx-4 sm:mx-0">
+          <ul className="w-full px-4 py-4 border rounded-full flex flex-row justify-around items-center">
             {tabs.map((tab, index) => (
               <button
                 key={index}
@@ -55,7 +72,8 @@ export default function ServicesTab() {
                 }`}
                 onClick={() => handleTabClick(index)}
               >
-                {tab}
+                <span className="hidden sm:inline">{tab}</span>
+                <span className="sm:hidden">{icons[index]}</span>
               </button>
             ))}
           </ul>
