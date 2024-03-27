@@ -10,6 +10,7 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Blog from "./pages/Blog.jsx";
 import Services from "./pages/Services";
+import Banner from "./pages/Banner.jsx";
 import ServicesTab from "./pages/ServicesTab.jsx";
 import Promotion from "./pages/Promotion.jsx";
 import FAQ from "./pages/FAQ";
@@ -25,6 +26,7 @@ const App = () => {
       <About />
       <Portfolio />
       <ServicesTab />
+      <Banner />
       <Blog />
       {/* <BrowserRouter>
         <Routes>
