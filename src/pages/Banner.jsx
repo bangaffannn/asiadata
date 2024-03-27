@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="bg-cover bg-center bg-gradient-to-b from-primary to-secondary py-12">
+    <div className="bg-cover bg-center bg-gradient-to-br from-purple-800 to-tertiary py-12">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-center items-center p-6 md:p-12 rounded-lg backdrop-filter backdrop-blur-lg bg-opacity-50">
           <svg
@@ -67,25 +67,25 @@ export default function Banner() {
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 ml-8 md:ml-0 mt-4">
               <ul className="flex flex-col justify-start items-start gap-y-2">
-                <li className="px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS GOOGLE ADS INSTALLMENT
                 </li>
-                <li className="px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS GOOGLE ADS CAMPAIGN
                 </li>
-                <li className="px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS KEYWORD RESEARCH
                 </li>
               </ul>
               <ul className="flex flex-col justify-start items-start gap-y-2">
-                <li className="px-4 py-2 rounded-lg bg-accent text-white">
-                  GRATIS SSL SECURITY
-                </li>
                 <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS HOSTING DAN DOMAIN SERVER
                 </li>
                 <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS SERVER DAN UPDATE MAINTENANCE
+                </li>
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
+                  GRATIS SSL SECURITY
                 </li>
               </ul>
             </div>
