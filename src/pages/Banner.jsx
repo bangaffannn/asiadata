@@ -81,10 +81,10 @@ export default function Banner() {
                 <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS SSL SECURITY
                 </li>
-                <li className="px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS HOSTING DAN DOMAIN SERVER
                 </li>
-                <li className="px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS SERVER DAN UPDATE MAINTENANCE
                 </li>
               </ul>
