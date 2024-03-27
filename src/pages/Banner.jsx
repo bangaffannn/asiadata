@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="">
+    <div className="bg-cover bg-center bg-gradient-to-b from-primary to-secondary py-12">
       <div className="container mx-auto">
-        <div className="flex justify-center items-center bg-primary p-12 rounded-2xl">
+        <div className="flex flex-col md:flex-row justify-center items-center p-6 md:p-12 rounded-lg backdrop-filter backdrop-blur-lg bg-opacity-50">
           <svg
             fill="#ffff"
             height="250px"
@@ -58,29 +58,33 @@ export default function Banner() {
               </g>
             </g>
           </svg>
-          <div className="ml-8">
-            <h1 className="font-bold text-6xl">#BulanPenuhDiskon!</h1>
-            <h1 className="font-bold text-6xl mt-2">#BulanPenuhBonus!</h1>
-            <div className="flex gap-x-8">
-              <ul className="flex flex-col justify-start items-start text-center gap-x-4 mt-4">
-                <li className="mt-2 px-4 py-2 rounded-lg bg-accent text-white">
+          <div className="md:ml-8 text-center md:text-left mt-4 md:mt-0">
+            <h1 className="font-bold text-4xl md:text-6xl mb-4">
+              #BulanPenuhDiskon!
+            </h1>
+            <h1 className="font-bold text-4xl md:text-6xl mb-4">
+              #BulanPenuhBonus!
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 ml-8 md:ml-0 mt-4">
+              <ul className="flex flex-col justify-start items-start gap-y-2">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS GOOGLE ADS INSTALLMENT
                 </li>
-                <li className="mt-2 px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS GOOGLE ADS CAMPAIGN
                 </li>
-                <li className="mt-2 px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS KEYWORD RESEARCH
                 </li>
               </ul>
-              <ul className="flex flex-col justify-start items-start text-center gap-x-4 mt-4">
-                <li className="mt-2 px-4 py-2 rounded-lg bg-accent text-white">
+              <ul className="flex flex-col justify-start items-start gap-y-2">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS SSL SECURITY
                 </li>
-                <li className="mt-2 px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS HOSTING DAN DOMAIN SERVER
                 </li>
-                <li className="mt-2 px-4 py-2 rounded-lg bg-accent text-white">
+                <li className="px-4 py-2 rounded-lg bg-accent text-white">
                   GRATIS SERVER DAN UPDATE MAINTENANCE
                 </li>
               </ul>
