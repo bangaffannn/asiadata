@@ -21,7 +21,7 @@ const BannerCard = ({ imageUrl, title, description }) => {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <img className="max-w-sm" src={imageUrl} alt="Banner" />
         <div className="px-6 py-4">
-          <div className="font-bold text-xl text-accent mb-2">{title}</div>
+          <div className="font-bold text-4xl text-white mb-2">{title}</div>
           <p className="text-white text-base text-justify">{description}</p>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function ServicesTab() {
           Our Services
         </h1>
         <div className="mx-4 sm:mx-0">
-          <ul className="w-full px-4 py-4 border rounded-full flex flex-row justify-around items-center">
+          <ul className="w-full px-4 py-6 sm:py-4 border rounded-full flex flex-row justify-around items-center">
             {tabs.map((tab, index) => (
               <button
                 key={index}
@@ -90,39 +90,22 @@ export default function ServicesTab() {
                   title="Website Development"
                   description={
                     <div>
-                      <p className="font-bold">Apa yang Kami Tawarkan:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Desain Kreatif dan Responsif: Kami mengutamakan desain
-                          yang menarik dan responsif agar website Anda dapat
-                          memberikan pengalaman pengguna yang optimal di
-                          berbagai perangkat, mulai dari desktop hingga
-                          smartphone.
+                      <p className="mt-2">Apa yang Kami Tawarkan:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Desain Kreatif dan Responsif
                         </li>
-                        <li>
-                          Pengembangan Berbasis Teknologi Terbaru: Kami
-                          menggunakan teknologi terkini dalam pengembangan web,
-                          termasuk HTML5, CSS3, JavaScript (termasuk framework
-                          seperti React, Angular, dan Vue.js), serta platform
-                          manajemen konten seperti WordPress dan Drupal.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Pengembangan Berbasis Teknologi Terbaru
                         </li>
-                        <li>
-                          Keamanan Terjamin: Keamanan adalah prioritas utama
-                          kami. Kami mengimplementasikan praktik terbaik dalam
-                          pengembangan web untuk melindungi data sensitif dan
-                          mengurangi risiko serangan cyber.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Keamanan Terjamin
                         </li>
-                        <li>
-                          Optimisasi SEO: Kami memperhatikan optimisasi mesin
-                          pencari (SEO) saat membangun website Anda untuk
-                          meningkatkan visibilitas online dan memperoleh
-                          peringkat yang lebih tinggi di hasil pencarian.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimisasi SEO
                         </li>
-                        <li>
-                          Integrasi Layanan: Kami dapat mengintegrasikan website
-                          Anda dengan berbagai layanan, seperti sistem manajemen
-                          konten, sistem pembayaran, dan platform media sosial
-                          untuk meningkatkan fungsionalitas dan konektivitas.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Integrasi Layanan
                         </li>
                       </ul>
                     </div>
@@ -135,56 +118,25 @@ export default function ServicesTab() {
                   title="Mobile Apps Development"
                   description={
                     <div>
-                      <p className="font-bold">Apa yang Kami Tawarkan:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Konsultasi dan Strategi: Kami akan berkolaborasi
-                          dengan Anda untuk memahami visi Anda dan merumuskan
-                          strategi yang tepat untuk pengembangan aplikasi Anda.
-                          Dari identifikasi kebutuhan hingga merancang
-                          pengalaman pengguna yang optimal, kami akan membantu
-                          Anda setiap langkah dalam proses pengembangan.
+                      <p className="mt-2">Apa yang Kami Tawarkan:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Konsultasi dan Strategi
                         </li>
-                        <li>
-                          Desain UI/UX yang Menarik: Tim desain kami akan
-                          membuat antarmuka pengguna (UI) yang menarik dan
-                          pengalaman pengguna (UX) yang intuitif untuk aplikasi
-                          Anda. Kami memprioritaskan kepuasan pengguna untuk
-                          memastikan aplikasi Anda memiliki daya tarik visual
-                          dan fungsionalitas yang baik.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Desain UI/UX yang Menarik
                         </li>
-                        <li>
-                          Pengembangan Aplikasi Kustom: Menggunakan teknologi
-                          terkini dan praktik pengembangan terbaik, tim
-                          pengembangan kami akan membangun aplikasi seluler yang
-                          sesuai dengan kebutuhan dan spesifikasi Anda. Kami
-                          ahli dalam pengembangan aplikasi untuk platform iOS
-                          dan Android menggunakan bahasa pemrograman seperti
-                          Swift, Kotlin, dan React Native.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Pengembangan Aplikasi Kustom
                         </li>
-                        <li>
-                          Integrasi API dan Fungsionalitas Lanjutan: Kami dapat
-                          mengintegrasikan aplikasi Anda dengan berbagai API dan
-                          layanan eksternal untuk meningkatkan
-                          fungsionalitasnya. Mulai dari integrasi media sosial
-                          hingga pembayaran online, kami akan memastikan
-                          aplikasi Anda memiliki semua fitur yang Anda butuhkan.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Integrasi API dan Fungsionalitas Lanjutan
                         </li>
-                        <li>
-                          Uji Kualitas dan Penjaminan Kualitas: Sebelum
-                          peluncuran, aplikasi Anda akan melalui serangkaian
-                          pengujian kualitas yang ketat untuk memastikan kinerja
-                          yang stabil dan pengalaman pengguna yang tanpa
-                          masalah. Kami juga akan menyediakan dukungan
-                          pasca-peluncuran untuk memastikan aplikasi Anda tetap
-                          berjalan dengan baik.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Uji Kualitas dan Penjaminan Kualitas
                         </li>
-                        <li>
-                          Peluncuran dan Dukungan: Kami akan membantu Anda
-                          meluncurkan aplikasi Anda ke toko aplikasi (App Store
-                          atau Google Play Store) dan memberikan dukungan
-                          pascapeluncuran yang diperlukan untuk memastikan
-                          kesuksesan jangka panjang aplikasi Anda.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Peluncuran dan Dukungan
                         </li>
                       </ul>
                     </div>
@@ -197,53 +149,25 @@ export default function ServicesTab() {
                   title="SEO FOR UMKM"
                   description={
                     <div>
-                      <p className="font-bold">Apa yang Kami Tawarkan:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Optimisasi Google My Business (GMB): Penyedia layanan
-                          Local SEO akan membantu mengoptimalkan dan mengelola
-                          profil bisnis Anda di Google My Business. Ini termasuk
-                          memastikan informasi bisnis Anda seperti alamat, nomor
-                          telepon, jam kerja, dan ulasan pelanggan adalah akurat
-                          dan terkini.
+                      <p className="mt-2">Apa yang Kami Tawarkan:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimisasi Google My Business (GMB)
                         </li>
-                        <li>
-                          Optimisasi Halaman Web Lokal: Membantu mengoptimalkan
-                          halaman web Anda untuk pencarian lokal dengan
-                          memasukkan kata kunci lokal yang relevan dalam konten,
-                          meta deskripsi, judul halaman, dan URL. Memastikan
-                          konsistensi informasi bisnis Anda di situs web Anda
-                          dengan yang ada di Google My Business.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimisasi Halaman Web Lokal
                         </li>
-                        <li>
-                          Pemasaran Konten Lokal: Membuat dan mempromosikan
-                          konten yang relevan dengan audiens lokal Anda, seperti
-                          artikel blog, ulasan bisnis, dan testimoni pelanggan.
-                          Meningkatkan kehadiran Anda dalam komunitas lokal
-                          dengan berpartisipasi dalam acara-acara lokal dan
-                          berkolaborasi dengan bisnis lokal lainnya.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Pemasaran Konten Lokal
                         </li>
-                        <li>
-                          Optimisasi Peta dan Direktori Lokal: Memastikan bahwa
-                          bisnis Anda terdaftar dengan benar di direktori lokal
-                          dan peta online seperti Yelp, Yellow Pages, dan Apple
-                          Maps. Memperbarui informasi bisnis Anda secara teratur
-                          di direktori lokal untuk memastikan konsistensi dan
-                          akurasi.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimisasi Peta dan Direktori Lokal
                         </li>
-                        <li>
-                          Optimisasi Penilaian dan Ulasan: Mendorong pelanggan
-                          untuk memberikan ulasan positif tentang bisnis Anda di
-                          platform seperti Google, Yelp, dan Facebook. Merespons
-                          ulasan pelanggan dengan cepat dan secara profesional
-                          untuk meningkatkan reputasi bisnis Anda.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimisasi Penilaian dan Ulasan
                         </li>
-                        <li>
-                          Pemantauan dan Pelaporan Kinerja: Melakukan pemantauan
-                          terhadap peringkat pencarian lokal Anda dan kinerja
-                          situs web Anda secara berkala. Memberikan laporan
-                          tentang perkembangan kampanye Local SEO dan memberikan
-                          saran perbaikan yang diperlukan.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Pemantauan dan Pelaporan Kinerja
                         </li>
                       </ul>
                     </div>
@@ -256,56 +180,25 @@ export default function ServicesTab() {
                   title="Performance Marketing"
                   description={
                     <div>
-                      <p className="font-bold">Apa yang Kami Tawarkan:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Strategi Pemasaran Digital: Tim ahli dalam jasa ini
-                          akan merancang strategi pemasaran digital yang sesuai
-                          dengan tujuan bisnis Anda. Mereka akan menganalisis
-                          target audiens Anda, menentukan platform digital yang
-                          tepat, dan mengidentifikasi metode terbaik untuk
-                          mencapai sasaran Anda.
+                      <p className="mt-2">Apa yang Kami Tawarkan:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Strategi Pemasaran Digital
                         </li>
-                        <li>
-                          Optimasi Kampanye: Jasa ini akan mengelola dan
-                          mengoptimalkan kampanye digital Anda secara
-                          terus-menerus. Mereka akan melakukan penyesuaian
-                          berdasarkan data dan analisis untuk meningkatkan
-                          kinerja kampanye Anda, seperti penyesuaian target
-                          audiens, peningkatan kata kunci, atau pengoptimalan
-                          iklan.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimasi Kampanye
                         </li>
-                        <li>
-                          Pengukuran Kinerja: Salah satu aspek kunci dari
-                          digital performance marketing adalah kemampuan untuk
-                          mengukur hasil secara akurat. Tim ini akan menggunakan
-                          berbagai alat analitik dan metrik untuk melacak
-                          konversi, klik, penjualan, atau metrik lainnya yang
-                          relevan, sehingga Anda dapat memahami secara jelas
-                          bagaimana kampanye Anda berperforma.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Pengukuran Kinerja
                         </li>
-                        <li>
-                          A/B Testing: Jasa ini juga akan melakukan uji coba A/B
-                          untuk menguji berbagai elemen kampanye seperti judul
-                          iklan, teks, gambar, atau penempatan iklan. Dengan
-                          melakukan uji coba ini, mereka dapat mengidentifikasi
-                          apa yang paling efektif dalam menarik perhatian
-                          audiens Anda dan meningkatkan tingkat konversi.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          A/B Testing
                         </li>
-                        <li>
-                          Laporan dan Analisis: Anda akan menerima laporan
-                          berkala yang menyajikan hasil kampanye Anda dan
-                          analisis tentang kinerja Anda. Dari laporan ini, Anda
-                          dapat memperoleh wawasan yang berharga tentang
-                          efektivitas strategi pemasaran Anda dan membuat
-                          keputusan yang lebih baik untuk masa depan.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Laporan dan Analisis
                         </li>
-                        <li>
-                          Beragam Kanal Pemasaran: Tim ini akan memanfaatkan
-                          berbagai kanal pemasaran digital seperti mesin pencari
-                          (SEO/SEM), media sosial, iklan display, email
-                          marketing, dan lainnya, sesuai dengan kebutuhan bisnis
-                          Anda.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Beragam Kanal Pemasaran
                         </li>
                       </ul>
                     </div>
@@ -318,65 +211,28 @@ export default function ServicesTab() {
                   title="UI/UX Design"
                   description={
                     <div>
-                      <p className="font-bold">Apa yang Kami Tawarkan:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Penelitian Pengguna: Melakukan penelitian mendalam
-                          tentang pengguna target, termasuk analisis kebutuhan,
-                          preferensi, dan perilaku pengguna untuk memahami
-                          konteks penggunaan produk.
+                      <p className="mt-2">Apa yang Kami Tawarkan:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Penelitian Pengguna
                         </li>
-                        <li>
-                          Wireframing: Membuat kerangka dasar (wireframe) dari
-                          antarmuka pengguna untuk menggambarkan struktur dan
-                          tata letak elemen-elemen utama tanpa memperhatikan
-                          desain grafis yang detail.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Wireframing dan Prototyping
                         </li>
-                        <li>
-                          Prototyping: Membangun prototipe interaktif dari
-                          produk yang memungkinkan pengguna untuk berinteraksi
-                          dengan antarmuka seolah-olah produk tersebut sudah
-                          jadi, sehingga memudahkan pengujian dan iterasi.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Desain Visual
                         </li>
-                        <li>
-                          Desain Visual: Merancang tampilan grafis dari
-                          antarmuka pengguna, termasuk pemilihan warna,
-                          tipografi, ikon, dan elemen-elemen visual lainnya
-                          untuk menciptakan estetika yang menarik dan konsisten.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Usability Testing
                         </li>
-                        <li>
-                          Usability Testing: Melakukan pengujian produk dengan
-                          pengguna nyata untuk mengidentifikasi masalah
-                          usability, mendapatkan umpan balik, dan memvalidasi
-                          desain.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Iterasi dan Responsiveness
                         </li>
-                        <li>
-                          Iterasi: Memperbaiki dan memperbarui desain
-                          berdasarkan hasil pengujian dan umpan balik untuk
-                          meningkatkan kualitas pengalaman pengguna.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Konsistensi dan Aksesibilitas
                         </li>
-                        <li>
-                          Responsiveness: Memastikan bahwa desain responsif,
-                          artinya antarmuka pengguna dapat menyesuaikan tata
-                          letaknya dengan baik di berbagai perangkat dan
-                          resolusi layar.
-                        </li>
-                        <li>
-                          Konsistensi: Membangun desain yang konsisten di
-                          seluruh aplikasi atau situs web, termasuk penggunaan
-                          elemen UI yang seragam dan pola desain yang konsisten.
-                        </li>
-                        <li>
-                          Aksesibilitas: Memperhatikan aksesibilitas desain
-                          untuk memastikan bahwa produk dapat diakses dan
-                          digunakan dengan mudah oleh semua pengguna, termasuk
-                          mereka yang memiliki kebutuhan khusus.
-                        </li>
-                        <li>
-                          Kolaborasi Tim: Berkolaborasi dengan pengembang
-                          perangkat lunak, manajer produk, dan pemangku
-                          kepentingan lainnya untuk memastikan visi desain
-                          terwujud dalam produk akhir.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Kolaborasi Tim
                         </li>
                       </ul>
                     </div>
@@ -389,47 +245,29 @@ export default function ServicesTab() {
                   title="Pembuatan Podcast dan Video Content"
                   description={
                     <div>
-                      <p className="font-bold">Apa yang Kami Tawarkan:</p>
-                      <p className="font-bold">Pembuatan Podcast:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Perencanaan: Kami akan bekerja sama dengan Anda untuk
-                          merancang konsep podcast yang sesuai dengan tujuan dan
-                          target audiens Anda.
+                      <p className="mt-2">Apa yang Kami Tawarkan:</p>
+                      <p className="font-bold mt-2">Pembuatan Podcast:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Perencanaan
                         </li>
-                        <li>
-                          Produksi: Tim kami akan menangani semua aspek
-                          produksi, termasuk rekaman, penyuntingan, mixing, dan
-                          mastering untuk memastikan kualitas audio yang
-                          optimal.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Produksi
                         </li>
-                        <li>
-                          Distribusi: Kami akan membantu Anda mengatur
-                          distribusi podcast Anda ke berbagai platform podcast
-                          terkemuka, seperti Apple Podcasts, Spotify, Google
-                          Podcasts, dan lainnya.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Distribusi
                         </li>
                       </ul>
-                      <p className="font-bold">Pembuatan Video:</p>
-                      <ul className="list-disc ml-6">
-                        <li>
-                          Konsep dan Skrip: Kami akan bekerja sama dengan Anda
-                          untuk mengembangkan konsep video yang sesuai dengan
-                          merek dan tujuan Anda. Tim kami juga dapat membantu
-                          dalam penulisan skrip yang menarik.
+                      <p className="font-bold mt-2">Pembuatan Video:</p>
+                      <ul className="ml-6">
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Konsep dan Skrip
                         </li>
-                        <li>
-                          Produksi: Dari pengambilan gambar hingga penyuntingan,
-                          tim kami akan memastikan setiap aspek produksi video
-                          Anda berjalan lancar. Kami menggunakan peralatan dan
-                          teknologi terbaru untuk menghasilkan video berkualitas
-                          tinggi.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Produksi
                         </li>
-                        <li>
-                          Optimasi SEO: Kami juga akan membantu Anda
-                          mengoptimalkan video Anda untuk mesin pencari sehingga
-                          lebih mudah ditemukan oleh audiens potensial Anda di
-                          platform seperti YouTube dan media sosial.
+                        <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
+                          Optimasi SEO
                         </li>
                       </ul>
                     </div>
