@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="bg-cover bg-center bg-gradient-to-br from-purple-800 to-tertiary py-12">
+    <div className="bg-cover bg-center bg-gradient-to-br from-purple-800 to-tertiary py-12 mt-20">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-center items-center p-6 md:p-12 rounded-lg backdrop-filter backdrop-blur-lg bg-opacity-50">
           <svg
@@ -75,6 +75,9 @@ export default function Banner() {
                 </li>
                 <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
                   GRATIS KEYWORD RESEARCH
+                </li>
+                <li className="px-4 py-2 rounded-lg bg-accent text-white text-start">
+                  GRATIS GOOGLE CONTENT
                 </li>
               </ul>
               <ul className="flex flex-col justify-start items-start gap-y-2">

@@ -58,7 +58,7 @@ const Blog = () => {
   ];
 
   return (
-    <section id="blog" className="container mx-auto mb-10">
+    <section id="blog" className="container mx-auto mb-10 mt-20">
       <div>
         <h1 className="text-3xl font-semibold text-center my-8">Blogs</h1>
       </div>

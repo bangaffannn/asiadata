@@ -91,7 +91,7 @@ export default function ServicesTab() {
                   description={
                     <div>
                       <p className="mt-2">Apa yang Kami Tawarkan:</p>
-                      <ul className="ml-6">
+                      <ul className="ml-6 w-full">
                         <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
                           Desain Kreatif dan Responsif
                         </li>
@@ -119,7 +119,7 @@ export default function ServicesTab() {
                   description={
                     <div>
                       <p className="mt-2">Apa yang Kami Tawarkan:</p>
-                      <ul className="ml-6">
+                      <ul className="ml-6 w-full">
                         <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
                           Konsultasi dan Strategi
                         </li>
@@ -150,7 +150,7 @@ export default function ServicesTab() {
                   description={
                     <div>
                       <p className="mt-2">Apa yang Kami Tawarkan:</p>
-                      <ul className="ml-6">
+                      <ul className="ml-6 w-full">
                         <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
                           Optimisasi Google My Business (GMB)
                         </li>
@@ -181,7 +181,7 @@ export default function ServicesTab() {
                   description={
                     <div>
                       <p className="mt-2">Apa yang Kami Tawarkan:</p>
-                      <ul className="ml-6">
+                      <ul className="ml-6 w-full">
                         <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
                           Strategi Pemasaran Digital
                         </li>
@@ -212,7 +212,7 @@ export default function ServicesTab() {
                   description={
                     <div>
                       <p className="mt-2">Apa yang Kami Tawarkan:</p>
-                      <ul className="ml-6">
+                      <ul className="ml-6 w-full">
                         <li className="mt-2 px-4 py-2 rounded-full bg-accent text-white">
                           Penelitian Pengguna
                         </li>
